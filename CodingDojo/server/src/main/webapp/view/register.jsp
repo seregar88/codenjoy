@@ -46,7 +46,7 @@
 <body>
     <div id="settings" contextPath="${ctx}" gameName="${gameName}" waitApprove="${wait_approve}"></div>
 
-    <%@include file="forkMe.jsp"%>
+    <%--<%@include file="forkMe.jsp"%>--%>
 
     <div class="page-header">
         <h1 id="title">Registration</h1>

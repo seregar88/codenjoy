@@ -38,7 +38,7 @@
 </head>
 <body>
     <div id="settings" contextPath="${ctx}" gameName="${gameName}"></div>
-    <%@include file="forkMe.jsp"%>
+    <%--<%@include file="forkMe.jsp"%>--%>
 
     <div class="page-header">
         <h1>Hi ${(user!=null)?user:ip}, please:</h1>

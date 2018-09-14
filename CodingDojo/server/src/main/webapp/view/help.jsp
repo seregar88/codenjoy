@@ -36,7 +36,7 @@
 </head>
 <body>
     <div id="settings" contextPath="${ctx}"></div>
-    <%@include file="forkMe.jsp"%>
+    <%--<%@include file="forkMe.jsp"%>--%>
     <div class="page-header">
         <h1>Help</h1>
     </div>

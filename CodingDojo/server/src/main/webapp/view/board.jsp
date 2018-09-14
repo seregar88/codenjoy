@@ -56,7 +56,7 @@
 <body style="display:none;">
     <div id="settings" contextPath="${ctx}" gameName="${gameName}" playerName="${playerName}" code="${code}" allPlayersScreen="${allPlayersScreen}"></div>
 
-    <%@include file="forkMe.jsp"%>
+   <%-- <%@include file="forkMe.jsp"%>--%>
 
     <div id="board_page">
         <%@include file="canvases.jsp"%>

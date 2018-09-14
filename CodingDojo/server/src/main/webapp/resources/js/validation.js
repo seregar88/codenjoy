@@ -23,6 +23,9 @@ function validatePlayerRegistration(formId) {
     $.validator.addMethod("alphabet", function(value){
         return /^[a-zA-Z]+[a-zA-Z0-9@._-]*$/.test(value);
     }, "Please use only English letters and numbers");
+    $.validator.addMethod("domain", function(value){
+        return /luxoft.com$/.test(value);
+    }, "Please use domain luxoft.com");
 
     var rules = {
         name: {
@@ -30,7 +33,8 @@ function validatePlayerRegistration(formId) {
             minlength: 2,
             maxlength: 150,
             email: true,
-            alphabet : true
+            alphabet : true,
+            domain: true
         },
         callbackUrl: {
             required: true,
