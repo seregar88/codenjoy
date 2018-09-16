@@ -72,7 +72,7 @@ public class GameRunner extends AbstractGameType implements GameType {
 
     @Override
     public Class<? extends Solver> getAI() {
-        return AISolver.class;
+        return null;
     }
 
     @Override
